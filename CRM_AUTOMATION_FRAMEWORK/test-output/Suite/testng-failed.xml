@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.vtiger.Organization.CreateOrganizationTest">
+        <methods>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="createOrganizationTest"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Organization.CreateOrganizationTest -->
+      <class name="org.vtiger.Campaign.CreateCampaignTest">
+        <methods>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="executeTestScript"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Campaign.CreateCampaignTest -->
+      <class name="org.vtiger.Organization.CreateOrganizationWithIndustryAndTypeTest">
+        <methods>
+          <include name="createOrganizationWithIndustryAndTypeTest"/>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Organization.CreateOrganizationWithIndustryAndTypeTest -->
+      <class name="org.vtiger.documents.CreateDocumentTest">
+        <methods>
+          <include name="createDocumentTest"/>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.documents.CreateDocumentTest -->
+      <class name="org.vtiger.Campaign.CreateCampaignWithProductTest">
+        <methods>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="createCampaignWithProductTest"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Campaign.CreateCampaignWithProductTest -->
+      <class name="org.vtiger.Contacts.CreateContactTest">
+        <methods>
+          <include name="createContactTest"/>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Contacts.CreateContactTest -->
+      <class name="org.vtiger.Organization.RandomlySelectOrganizationAndDeleteOrganizationTest">
+        <methods>
+          <include name="testScriptExecutionSetup"/>
+          <include name="randomlySelectOrganizationAndDeleteOrganizationTest"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Organization.RandomlySelectOrganizationAndDeleteOrganizationTest -->
+      <class name="org.vtiger.Contacts.CreateContactWithOrganizationTest">
+        <methods>
+          <include name="createContactWithOrganizationTest"/>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Contacts.CreateContactWithOrganizationTest -->
+      <class name="org.vtiger.Organization.CreateOrganizationAndDeleteOrganizationTest">
+        <methods>
+          <include name="createOrganizationAndDeleteOrganizationTest"/>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.Organization.CreateOrganizationAndDeleteOrganizationTest -->
+      <class name="org.vtiger.products.CreateProductTest">
+        <methods>
+          <include name="testScriptExecutionSetup"/>
+          <include name="closeBrowser"/>
+          <include name="fileSetup"/>
+          <include name="userLogout"/>
+          <include name="closeConnection"/>
+          <include name="createProductTest"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- org.vtiger.products.CreateProductTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

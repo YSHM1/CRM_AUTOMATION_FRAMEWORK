@@ -1,0 +1,1 @@
+{"uuid":"5b2a4eb1-0b30-43b6-bc7c-32e0c983efad","name":"org.crm.Campaign.CreateCampaignTest","children":["3ee74998-a783-4515-80be-94f21d7d7839"],"befores":[{"name":"fileSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1670435119574,"stop":1670435121050}],"afters":[],"start":1670435110930,"stop":1670435150530}
